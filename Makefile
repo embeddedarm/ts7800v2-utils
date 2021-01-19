@@ -1,7 +1,7 @@
 utils = eth_phy_peekpoke led7800 peekpoke rtc7800 ts7800ctl load_fpga_flash \
  accel-test pwmctl idleinject
 
-CC ?= arm-marvell-linux-uclibcgnueabi-gcc
+CC ?= arm-linux-gnueabihf-gcc
 CFLAGS =  -Wall -O -lprocps
 
 all:  $(utils)

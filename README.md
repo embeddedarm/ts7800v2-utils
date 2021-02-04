@@ -12,5 +12,6 @@ System utilities for the TS-7800v2.  These are:<br>
     
     ts7800ctl, for accessing ADCs, WDT, and sleep function.
     
-    pwmctl, for controlling the PWMs
+    pwmctl, for controlling the PWMs.
 
+    idleinject, for keeping the system from cooking itself.
